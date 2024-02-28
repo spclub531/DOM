@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DOM Manipulation</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  #targetDiv {
+    background-color: white;
+    border: 1px solid black;
+    display: inline-block;
+  }
+</style>
+</head>
+<body>
+  <div id="targetDiv">Hello, I'm a  Div!</div>
+
+<script>
+  var targetDiv = document.getElementById('targetDiv');
+  targetDiv.style.backgroundColor = 'yellow';
+  targetDiv.style.color = 'blue'
+  targetDiv.style.margin = '20px';
+  targetDiv.style.padding = '10px';
+  targetDiv.style.fontSize = '18px';
+  targetDiv.style.fontWeight = 'bold';
+  targetDiv.style.height = '200px';
+  targetDiv.style.width = '300px';
+</script>
+</body>
+</html>
